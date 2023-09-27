@@ -1,0 +1,39 @@
+.promo-section-two {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .promo-kitchen {
+      background-color: #ffcc00;
+      text-align: center;
+      color: #333;
+      width: 90rem;
+      height: 21rem;
+    }
+    
+    .promo-kitchen h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    .promo-kitchen p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    
+    .promo-button-circle {
+      background-color: #585B6A;
+      color: #fff;
+      height: 16.25rem;
+      width: 16.25rem;
+      border-radius: 20rem;
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+    }
+    

@@ -1,0 +1,11 @@
+.category-panel {
+    border: solid black 1px;
+    padding: 1rem;
+
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,60 @@
+.hero {
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/blue-tone.jpg?v=1695223203");
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .hero h1, h2 {
+    font-size: 6rem;
+    margin-bottom: 30px;
+    color: white;
+
+  }
+
+
+  .h2-box h2 {
+    color: #ccc;
+  }
+
+  .h3-box {
+    color: white;
+    font-size: 1.4rem;
+  }
+  .hero-btn-box {
+    display: flex;
+    gap: 20px;
+  }
+
+
+  .hero-btn {
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    color: #3B3B3B;
+    height: 4rem;
+    width: 15.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  

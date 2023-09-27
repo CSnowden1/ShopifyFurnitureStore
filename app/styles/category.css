@@ -1,0 +1,55 @@
+
+.category-image {
+    height: 30.625rem;
+    width: 25.0625rem;
+    background: #6c757d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+.category-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 8rem;
+    }
+
+.category {
+    height: 20rem;
+    background-color: #f0f0f0;
+
+}
+
+.category-pitch {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 800;
+}
+
+.category-link {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+.linens-cat, .sofa-cat, .dinning-cat, .office-cat {
+  background-image: url('https://cdn.shopify.com/s/files/1/0758/9101/6001/files/Blankets.jpg?v=1695223993)');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.sofa-cat {
+  background-image: url('https://cdn.shopify.com/s/files/1/0758/9101/6001/files/Sofa.jpg?v=1695223993');
+}
+
+.dinning-cat {
+  background-image: url('https://cdn.shopify.com/s/files/1/0758/9101/6001/files/Dinning.jpg?v=1695224389');
+}
+
+.office-cat {
+  background-image: url('https://cdn.shopify.com/s/files/1/0758/9101/6001/files/office.jpg?v=1695224238');
+}
