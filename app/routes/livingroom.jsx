@@ -1,7 +1,11 @@
 import React from 'react'
+import LeninCollection from '~/collections/lenins'
+
 
 export default function _livingroom() {
   return (
-    <div>_livingroom</div>
+    <div>
+      <LeninCollection />
+    </div>
   )
 }

@@ -3,7 +3,6 @@ import Hero from "~/components/Hero";
 import Category from "~/components/Category";
 import CategoryTwo from "~/components/CategoryTwo";
 import PromoOne from "~/components/PromoOne";
-import ProductSection from "~/components/ProductSection";
 import PromoTwo from "~/components/PromoTwo";
 import Footer from "~/components/Footer";
 
@@ -23,7 +22,6 @@ export function meta() {
         <Hero /> 
         <Category />
         <CategoryTwo />
-        <ProductSection />
         <PromoOne />
         <PromoTwo />
         <Footer />
