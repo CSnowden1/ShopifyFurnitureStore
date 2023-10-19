@@ -1,39 +1,47 @@
 .promo-section-two {
-    margin-top: 5rem;
+    margin: 8rem 3rem;
     display: flex;
     justify-content: space-between;
+    align-items:flex-start;
+
   }
   
   
-  .promo-kitchen {
-      background-color: #ffcc00;
-      text-align: center;
-      color: #333;
-      width: 90rem;
-      height: 21rem;
-    }
+
     
-    .promo-kitchen h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
+.title-underline-box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+
+.underline {
+  height: .25rem;
+  width: 80rem;
+  background: #585B6A;
+  margin-bottom: 1rem;
+
+}
+
+
+
+
+
+.Kitchen-h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 800;
+  align-self: center;
+}
     
-    .promo-kitchen p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
+.promo-kitchen p {
+  font-size: 1.5rem;
+  color: black;
+}
     
     .promo-button-circle {
-      background-color: #585B6A;
-      color: #fff;
-      height: 16.25rem;
-      width: 16.25rem;
-      border-radius: 20rem;
-      align-self: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-decoration: none;
+     
     }
     
