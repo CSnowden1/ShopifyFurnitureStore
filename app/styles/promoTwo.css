@@ -3,45 +3,76 @@
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
+    height: auto;
+
 
   }
   
   
-
+.promo-kitchen {
+  height: 30rem;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
     
-.title-underline-box {
+
+
+.logo-kitchen {
+  align-self: center;
+  justify-self: center;
+  width: 25rem;
+  height: 25rem;
+}
+
+.room-section {
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/istockphoto-1357529222-612x612.jpg?v=1697722273");
+  margin: 8rem 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  background-position: center;
+
+
+}
+
+.kitchen-appl {
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-5824883.webp?v=1697722409");
+  margin: 8rem 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-position: center;
+
+
+}
+
+
+.bedding-section {
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-90319.jpg?v=1697722687");
+  margin: 8rem 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  background-position: center;
+}
+
+.closet-bedding {
   display: flex;
-  flex-direction: column;
-  align-self: center;
+  margin: 8rem 3rem;
+  border: solid black 1px;
+  height: 60rem;
 }
 
 
-.underline {
-  height: .25rem;
-  width: 80rem;
-  background: #585B6A;
-  margin-bottom: 1rem;
-
+.left {
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-7535017.webp?v=1697722607");
+  width: 50%;
+  height: 100%;
 }
 
-
-
-
-
-.Kitchen-h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: black;
-  font-weight: 800;
-  align-self: center;
+.right {
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-14613154.jpg?v=1697722653");
+  width: 50%;
+  height: 100%;
 }
-    
-.promo-kitchen p {
-  font-size: 1.5rem;
-  color: black;
-}
-    
-    .promo-button-circle {
-     
-    }
-    
