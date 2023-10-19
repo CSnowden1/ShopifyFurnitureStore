@@ -8,7 +8,7 @@ export default function PromoTwo() {
           <p>Transform your kitchen into a functional and stylish space with our collection of contemporary kitchen furniture. Find the perfect dining sets, bar stools, and more.</p>
         </div>
         <div className="promo-button-circle">
-            <p>Explore Now</p>
+            <img src="https://cdn.shopify.com/s/files/1/0758/9101/6001/files/Group_103.jpg?v=1697681203" />
         </div>
       </div>
   )
