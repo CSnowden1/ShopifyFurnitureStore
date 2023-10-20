@@ -1,10 +1,39 @@
 
 
 .room-section {
-    background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/istockphoto-1219335129-612x612.jpg?v=1697720498");
-    width: 100%;
-    height: auto;
+    height: 60rem;
     margin: 8rem 3rem;
-    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.kitchen-img-box {
+    
+}
+
+.dining-img {
+    width: auto;
+    height: auto;
+}
+
+.product-btn-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.kitchen-collection {
+    display: grid;
+
+}
+
+
+.kitchen-btn {
+    border: solid black 1px;
+}
+
+.kitchen-h3 {
+    font-size: 1rem;
 
 }

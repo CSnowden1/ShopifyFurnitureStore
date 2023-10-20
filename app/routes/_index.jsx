@@ -4,7 +4,7 @@ import Category from "~/components/Category";
 import CategoryTwo from "~/components/CategoryTwo";
 import PromoOne from "~/components/LivingRoomPromo";
 import PromoTwo from "~/components/KitchenPromo";
-import DinningroomPromo from "~/components/DinningroomPromo";
+import DinningroomPromo from "~/components/KitchenTwo";
 import KitchenAppl from "~/components/KitchenAppl";
 import BedroomPromo from "~/components/BedroomPromo";
 import BedroomPromoTwo from "~/components/BedroomPromoTwo";

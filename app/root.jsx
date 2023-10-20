@@ -22,8 +22,10 @@ import categoryTwoStyles from '../app/styles/categoryTwo.css'
 import promoOneStyles from '../app/styles/promoOne.css'
 import productSectionStyles from '../app/styles/productSection.css'
 import promoTwoStyles from '../app/styles/promoTwo.css'
-import footerStyles from '../app/styles/footer.css'
-import BlogStyles from '../app/styles/BlogSection.css';
+import footerStyles from '../app/styles/footer.css';
+import kitchenTwoStyles from '../app/styles/dinningroomPromo.css'
+import blogStyles from '../app/styles/BlogSection.css';
+import kitchenAppl from '../app/styles/kitchenApl.css';
 
 
 import favicon from '../public/favicon.svg';
@@ -55,7 +57,9 @@ export const links = () => {
     {rel: 'stylesheet', href: productSectionStyles},
     {rel: 'stylesheet', href: promoTwoStyles},
     {rel: 'stylesheet', href: footerStyles},
-    {rel: 'stylesheet', href:BlogStyles},
+    {rel: 'stylesheet', href:blogStyles},
+    {rel: 'stylesheet', href:kitchenTwoStyles},
+    {rel: 'stylesheet', href:kitchenAppl},
 
 
     {

@@ -25,27 +25,9 @@
   height: 25rem;
 }
 
-.room-section {
-  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/istockphoto-1357529222-612x612.jpg?v=1697722273");
-  margin: 8rem 3rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  background-position: center;
 
 
-}
 
-.kitchen-appl {
-  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-5824883.webp?v=1697722409");
-  margin: 8rem 3rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40rem;
-  background-position: center;
-
-
-}
 
 
 .bedding-section {
@@ -55,13 +37,17 @@
   background-size: cover;
   height: 50rem;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .closet-bedding {
   display: flex;
   margin: 8rem 3rem;
-  border: solid black 1px;
   height: 60rem;
+  justify-content: space-between;
 }
 
 
@@ -69,10 +55,55 @@
   background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-7535017.webp?v=1697722607");
   width: 50%;
   height: 100%;
+  margin-right: .5rem;
 }
 
 .right {
   background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-14613154.jpg?v=1697722653");
   width: 50%;
   height: 100%;
+  margin-left: .5rem;
+  background-position: center;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+
+
+
+.bedding-h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+.bedding-subheading {
+  color: white;
+  font-size: 1.5rem;
+
+}
+
+.bedding-cta {
+  background-color: blue;
+  color: white;
+  border: solid black;
+  padding: .65rem;
+
+}
+
+
+
+
+
+.kitchen-one-cta {
+  display: flex; 
+  flex-direction: column; 
+  background-image: url("https://cdn.shopify.com/s/files/1/0758/9101/6001/files/pexels-photo-6996085.webp?v=1697719290");
+  height: 20rem;
+  padding: 3rem;
+
 }
