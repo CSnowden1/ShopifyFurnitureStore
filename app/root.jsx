@@ -26,6 +26,9 @@ import footerStyles from '../app/styles/footer.css';
 import kitchenTwoStyles from '../app/styles/dinningroomPromo.css'
 import blogStyles from '../app/styles/BlogSection.css';
 import kitchenAppl from '../app/styles/kitchenApl.css';
+import SeasonalSection from '../app/styles/seasonal.css'
+import NewsletterStyles from '../app/styles/newsLetter.css'
+import SocialStyle from '../app/styles/socialProof.css'
 
 
 import favicon from '../public/favicon.svg';
@@ -60,6 +63,10 @@ export const links = () => {
     {rel: 'stylesheet', href:blogStyles},
     {rel: 'stylesheet', href:kitchenTwoStyles},
     {rel: 'stylesheet', href:kitchenAppl},
+    {rel: 'stylesheet', href:SeasonalSection},
+    {rel: 'stylesheet', href:NewsletterStyles},
+    {rel: 'stylesheet', href:SocialStyle},
+
 
 
     {

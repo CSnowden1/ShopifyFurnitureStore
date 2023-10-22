@@ -1,0 +1,40 @@
+.newsletter-section {
+    background-color: #3B3B3B;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.newsletter-section h2 {
+    font-size: 28px;
+}
+
+.newsletter-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-section input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-section button {
+    background-color: #FAD02E;
+    color: #3B3B3B;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+

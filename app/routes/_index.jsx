@@ -8,7 +8,12 @@ import DinningroomPromo from "~/components/KitchenTwo";
 import KitchenAppl from "~/components/KitchenAppl";
 import BedroomPromo from "~/components/BedroomPromo";
 import BedroomPromoTwo from "~/components/BedroomPromoTwo";
+import InspirationSection from "~/components/RoomInspration";
+import DecorationPromo from "~/components/DecorationsPromo";
 import BlogSection from "~/components/BlogSection";
+import SeasonalSection from "~/components/SeasonalSection";
+import SocialProofSection from "~/components/SocialMedia";
+import NewsletterHomepage from "~/components/newsletterHomepage";
 import Footer from "~/components/Footer";
 
 export function meta() {
@@ -33,8 +38,12 @@ export function meta() {
         <KitchenAppl />
         <BedroomPromo />
         <BedroomPromoTwo />
+        <DecorationPromo />
+        <SeasonalSection />
         <BlogSection />
-        <Footer />
+        <InspirationSection />
+        <SocialProofSection />
+        <NewsletterHomepage />
       </div>
     );
   }
